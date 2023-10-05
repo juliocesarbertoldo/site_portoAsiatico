@@ -1,0 +1,463 @@
+body, .well {
+	color: black;
+	background-color: #d9d9d6;
+}
+
+div.well-sm {
+	font-size: 1.2em;
+}
+
+div, span {
+	cursor: pointer;
+	-webkit-user-select: none; /* Safari */
+   -ms-user-select: none; /* IE 10+ and Edge */
+   user-select: none; /* Standard syntax */
+}
+
+input {
+	text-transform: uppercase;
+	-webkit-user-select: auto !important; /* Safari */
+   -ms-user-select: auto; /* IE 10+ and Edge */
+   user-select: auto; /* Standard syntax */
+}
+
+div.modal-content {
+	color: black;
+	background-color: white;
+}
+
+.navbar-default {
+  background-color: #24241a; /*cor do MENU PRINCIPAL*/
+  border-color: #f5f5f5;
+  padding-left: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px rgb(0 0 0 / 40%);
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-text { /*MENU PRINCIPAL*/
+	color: white; 
+	float: left !important;
+	margin-right: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #241200;
+}
+
+.navbar-left {
+	float: left !important;
+}
+
+.nav-home-grande {
+	min-height: 100px;
+	padding: 10px;
+}
+
+.navbar-text-center { /*MENU PRINCIPAL*/
+	font-size: 1.2em;
+	color: white;
+	font-weight: bold; 
+}
+
+.navbar-img-logo {
+	max-height: 100px;
+	margin-right: 10px;
+	border: 3px solid #945701;
+	border-radius: 5px;
+	box-sizing: content-box;
+}
+
+.navbar-table-home {
+	margin: auto;
+	max-width: 600px;
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;	
+	min-height: 90px;
+}
+
+.modal-header {
+	padding: 4px 8px;
+}
+
+.btn {
+	white-space: normal;
+	cursor:pointer;
+	font-size: 1.2em;
+}
+
+.btn-light {
+	border: 1px solid gray;
+	background: #f8f9fa;
+}
+
+.btn-default:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  background-color: #fff;
+}
+
+/* Botão de seleção verde padrão */
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #000;
+  background-color: #82E874;
+  border-color: #5ABD4D;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+  color: #000;
+  background-color: #82E874;
+  border-color: #5ABD4D;
+}
+
+/* Botão de seleção azul qtd */
+.btn-azul:active,
+.btn-azul.active,
+.open > .dropdown-toggle.btn-azul {
+  color: #000;
+  background-color: #61D7FF;
+  border-color: #17A5D4;
+}
+.btn-azul:active:hover,
+.btn-azul.active:hover,
+.open > .dropdown-toggle.btn-azul:hover,
+.btn-azul:active:focus,
+.btn-azul.active:focus,
+.open > .dropdown-toggle.btn-azul:focus,
+.btn-azul:active.focus,
+.btn-azul.active.focus,
+.open > .dropdown-toggle.btn-azul.focus {
+  color: #000;
+  background-color: #61D7FF;
+  border-color: #17A5D4;
+}
+
+/* Botão de seleção amarelo add */
+.btn-amarelo:active,
+.btn-amarelo.active,
+.open > .dropdown-toggle.btn-amarelo {
+  color: #000;
+  background-color: #F0E659;
+  border-color: #C9C13A;
+}
+.btn-amarelo:active:hover,
+.btn-amarelo.active:hover,
+.open > .dropdown-toggle.btn-amarelo:hover,
+.btn-amarelo:active:focus,
+.btn-amarelo.active:focus,
+.open > .dropdown-toggle.btn-amarelo:focus,
+.btn-amarelo:active.focus,
+.btn-amarelo.active.focus,
+.open > .dropdown-toggle.btn-amarelo.focus {
+  color: #000;
+  background-color: #F0E659;
+  border-color: #C9C13A;
+}
+
+/* Botão de seleção laranja sabores */
+.lbSelecionaSabores {
+	display: block;
+}
+
+a.btn-laranja,
+.btn-laranja:active,
+.btn-laranja.active,
+.open > .dropdown-toggle.btn-laranja {
+  color: #7a1701;
+  background-color: #ff886e;
+  border-color: #ff5c38;
+}
+
+a.btn-laranja,
+a.btn-laranja:focus,
+a.btn-laranja:hover,
+.btn-laranja:active:hover,
+.btn-laranja.active:hover,
+.open > .dropdown-toggle.btn-laranja:hover,
+.btn-laranja:active:focus,
+.btn-laranja.active:focus,
+.open > .dropdown-toggle.btn-laranja:focus,
+.btn-laranja:active.focus,
+.btn-laranja.active.focus,
+.open > .dropdown-toggle.btn-laranja.focus {
+  color: #7a1701;
+  background-color: #ff886e;
+  border-color: #ff5c38;
+}
+
+
+
+
+img.fotoProduto {
+	display: inline-block;
+}
+
+table.desc_produto tbody tr td.produtoPromocao {
+	background-color: #c2ffc7;
+}
+
+table.desc_produto tfoot tr td {
+	font-size: 1.2em;
+	line-height: normal;
+	padding: 8px 5px;
+	vertical-align: middle;
+	height: 55px;
+	font-weight: bold;
+	background-color: #d1d1d1;
+}
+
+.panel {
+	border: 2px solid;
+}
+
+.panel-qtd {
+  border-color: #73CEFF;
+}
+.panel-qtd > .panel-heading {
+  color: #007780;
+  background-color: #73CEFF;
+  border-color: #73CEFF;
+}
+.panel-qtd > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #73CEFF;
+}
+.panel-qtd > .panel-heading .badge {
+  color: #73CEFF;
+  background-color: #73CEFF;
+}
+.panel-qtd > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #73CEFF;
+}
+
+.panel-add {
+  border-color: #DBD24B;
+}
+.panel-add > .panel-heading {
+  color: #946F00;
+  background-color: #DBD24B;
+  border-color: #DBD24B;
+}
+.panel-add > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #DBD24B;
+}
+.panel-add > .panel-heading .badge {
+  color: #DBD24B;
+  background-color: #DBD24B;
+}
+.panel-add > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #DBD24B;
+}
+
+.panel-tipo {
+  border-color: #68BD6D;
+}
+.panel-tipo > .panel-heading {
+  color: #266900;
+  background-color: #68BD6D;
+  border-color: #68BD6D;
+}
+.panel-tipo > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #68BD6D;
+}
+.panel-tipo > .panel-heading .badge {
+  color: #68BD6D;
+  background-color: #68BD6D;
+}
+.panel-tipo > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #68BD6D;
+}
+
+.panel-sabores {
+  border-color: #fc4f28;
+}
+.panel-sabores > .panel-heading {
+  color: #7a1701;
+  background-color: #fa6543;
+  border-color: #fc4f28;
+}
+.panel-sabores > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #fc4f28;
+}
+.panel-sabores > .panel-heading .badge {
+  color: #7a1701;
+  background-color: #fa6543;
+}
+.panel-sabores > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #fa6543;
+}
+
+.panel-extra {
+  border-color: #969696;
+}
+.panel-extra > .panel-heading {
+  color: #242424;
+  background-color: #969696;
+  border-color: #969696;
+}
+.panel-extra > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #969696;
+}
+.panel-extra > .panel-heading .badge {
+  color: #969696;
+  background-color: #969696;
+}
+.panel-extra > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #969696;
+}
+
+.center {
+	text-align: center;
+}
+
+.text-lg {
+	font-size: 1.5em;
+}
+
+.text-sml {
+	font-size: 0.7em;
+}
+
+div.txt-adicionais {
+	font-size: 0.8em;
+	color: #138A37;
+}
+
+div.txt-observacao {
+	font-size: 0.8em;
+	color: #005CFA;
+}
+
+.password-strength-indicator
+{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 40px;
+    min-height: 40px;
+    padding: 0 5px;
+    min-width: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.password-strength-indicator.very-weak
+{
+    background: #cf0000;
+    border-color: #a60000;
+}
+
+.password-strength-indicator.weak
+{
+    background: #f6891f;
+    border-color: #c56e19;
+}
+
+.password-strength-indicator.mediocre
+{
+    background: #eeee00;
+    border-color: #d6d600;
+}
+
+.password-strength-indicator.strong
+{
+    background: #99ff33;
+    border-color: #7acc29;
+}
+
+.password-strength-indicator.very-strong
+{
+    background: #22cf00;
+    border-color: #1B9900;
+}
+
+/* 1.25 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.2), 
+(min-resolution: 80dpi){ 
+	.btn, table tbody tr td.td-adiciona-produto, div.form-group {
+		font-size: 1.2em;	
+		
+	}
+}
+
+/* 1.3 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.3), 
+(min-resolution: 124.8dpi){ 
+	.btn, table tbody tr td.td-adiciona-produto , div.form-group {
+		font-size: 1.2em;	
+	}
+}
+
+/* 1.5 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+	.btn, table tbody tr td.td-adiciona-produto , div.form-group {
+		font-size: 1.2em;	
+	}
+}
+
+button.btn  {
+	font-size: 1.1em !important;
+}
+
+@keyframes destaqueBotao {
+  0%   {background-color: #ff886e;}
+  25%  {background-color: yellow;}
+  50%  {background-color: #ff886e;}
+  75%  {background-color: yellow;}
+  100% {background-color: #ff886e;}
+}
+
+.btnDestaque {
+	animation-name: destaqueBotao;
+   animation-duration: 4s;
+} 
+
+div.dObsProdLista {
+	font-size: 0.8em;
+	font-style: italic;
+	color: graytext;
+}
+
+
+/*CONFIG DIGITAL B*/
+
+table.desc_produto tbody tr td { /*lista dos itens*/
+  font-size: 1.3em;
+  line-height: normal;
+  padding: 12px 5px;
+  vertical-align: middle;
+  background-color: rgb(255 255 255 / 90%);
+  border-color: rgb(136 131 122 / 31%);
+  border-radius: 10px;
+  height: 55px;
+}
+
+table.desc_produto tbody tr:hover {
+  text-shadow: 0px 0px 2px rgb(255, 255, 255,.15);
+  color: green;
+  background-color: #887101;
+}
+
+.btn-primary { /*Botões menu*/
+  background-color: #88837a;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
